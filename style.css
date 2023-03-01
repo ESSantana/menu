@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Tangerine", cursive;
+  color: #444444;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #fff4db;
+}
+
+#container {
+  height: 100%;
+  width: 60%;
+  margin: 0 auto 6vh auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+}
+
+div#menu_titulo,
+section#sessao_pratos {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+
+div#menu_titulo {
+  margin: 6vh 0;
+}
+
+section#sessao_pratos {
+  margin-bottom: 6vh;
+}
+
+div#menu_titulo > *,
+section#sessao_pratos > * {
+  width: 100%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 6em;
+  vertical-align: center;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+p {
+  font-size: 2.5em;
+}
+
+div#menu_titulo > div.linha {
+  width: 60%;
+  margin: 0 auto;
+  border-bottom: 1px solid #8a8a8a;
+  height: 0px;
+}
+
+section#sessao_pratos > div.linha_2 {
+  width: 10%;
+  margin: 0 auto;
+  border-bottom: 1px solid #8a8a8a;
+  height: 0px;
+}
+
+section#final > p{ 
+    font-size: 2em;
+}
